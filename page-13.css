@@ -47,7 +47,6 @@ font-size: 40px;
 
 .vertical {
      border-left: 1px solid #dee2e627;
-
     height: 60px;
     position:absolute;
     left: 50%;
@@ -153,6 +152,11 @@ text-align: left;
     opacity: 50%;
 }
 
+.calender-box p{
+    font-size: 16px;
+    color: #191D2A;
+}
+
 .calendar-div .date{
     font-weight: 700;
     font-size: 10px;
@@ -191,13 +195,24 @@ text-align: left;
 }
 
 
+.profile-photo-13 {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: transparent;
+    /* transition: all 0.3s ease; */
+    margin-right: 10px;
+  }
 
 .btn-file{
-    color: #819DED;
+    color: #7667F8;
      border-radius: 24px;
-    border: 1px solid #819DED;
-    /* width: 120px; */
-    padding: 10px 30px;
+    border: 1px solid #7667F8;
+    padding: 16px 33px 15px 34px;
+    letter-spacing: 1px;
     font-size: 12px;
     font-weight: 700;
     background-color: #FFFFFF;
@@ -212,7 +227,8 @@ text-align: left;
          border-radius: 24px;
         border: 1px solid #4169E2;
         font-weight: 700;
-        padding: 10px 50px;
+        padding: 16px 58px 15px 58px;
+        letter-spacing: 1px;
         font-size: 12px;
         background-color: #FFFFFF;
         margin-right: 10px;
@@ -229,7 +245,7 @@ text-align: left;
     color: #fff;
     border: none;
      border-radius: 24px;
-    padding: 5px 85px;
+    padding: 10px 122px;
     font-size: 12px;
     font-weight: 700;
     /* margin-right: 10px; */
@@ -241,10 +257,10 @@ text-align: left;
     font-weight: 700;
     border-radius: 24px;
     border: 1px solid #3B66EA;
-    padding: 5px 30px;
+    padding: 10px 50px;
    font-size: 12px;
    background-color: #FFFFFF;
-   margin-top: 5px;
+   margin-top: 10px;
 }
 
 .btn-file-decline{
@@ -252,11 +268,14 @@ text-align: left;
     font-weight: 700;
     border-radius: 24px;
     border: 1px solid #D60000;
-    padding: 5px 30px;
+    padding: 10px 50px;
    font-size: 12px;
    background-color: #FFFFFF;
-   margin-top: 5px;
+   margin-top: 10px;
 }
+
+
+
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -266,6 +285,14 @@ text-align: left;
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+.btn-page-17{
+    margin: 0 auto;
+}
+
+.btn-page-13{
+    margin: 0 auto;
+
+}
 
 }
 
