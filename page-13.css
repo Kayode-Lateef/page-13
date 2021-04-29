@@ -23,27 +23,18 @@ font-size: 40px;
     color: #fff !important;
 }
 
-
 .jumbo-content-box{
     border: 1px solid #fff;
     border-radius: 8px;
     margin: auto;
-    width: 901px !important;
-    height: 122px;
-    padding: 10px -15px !important;
+    /* width: 901px !important; */
+    /* height: 122px; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    /* margin-left: 10px; */
   
 }
 
-.jumbo-content-box div:nth-child(2){
-    /* padding-left: 130px; */
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
 
 .vertical {
      border-left: 1px solid #dee2e627;
@@ -51,15 +42,45 @@ font-size: 40px;
     position:absolute;
     left: 50%;
 }
+.jumbo-content-box .jumbo-left{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
 
-.jumbo-content-box p:nth-child(1){
+.jumbo-content-box .jumbo-left p:nth-child(1){
     color: #fff;
     font-size: 14px;
     opacity: 50%;
     font-weight: 700;
-    margin-top: 20px;
+    margin-bottom: 0px;
+}
 
-    /* margin-right: 10px; */
+.jumbo-content-box .jumbo-left p:nth-child(2){
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.jumbo-content-box .jumbo-right{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+}
+
+.jumbo-content-box .jumbo-right p:nth-child(1){
+    color: #fff;
+    font-size: 14px;
+    opacity: 50%;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.jumbo-content-box .jumbo-right p:nth-child(2){
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 
 .jumbo-content-box #pay-txt{
@@ -111,6 +132,7 @@ text-align: left;
 .calendar-div{
     display: flex;
     align-items: center;
+
 }
 
 .calender-box {
@@ -127,10 +149,13 @@ text-align: left;
     align-items: center;
     border: 1px solid #4169e220;
     border-radius: 8px; 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
+}
+.calender-box-2 .amt{
     color: #191D2A;
     font-size: 16px;
+    margin: 19px 0px 19px 0px;
+
 }
 
 .calender-box span i{
@@ -155,6 +180,7 @@ text-align: left;
 .calender-box p{
     font-size: 16px;
     color: #191D2A;
+    padding: 10px 0px;
 }
 
 .calendar-div .date{
@@ -183,17 +209,19 @@ text-align: left;
 }
 
 .participant-card{
-    color: black;
     background-color: #fff;
-
-    padding: 10px;
+    padding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: -25px;
     margin-right: -10px;
 }
-
+.participant-profile{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+}
 
 .profile-photo-13 {
     border-radius: 50%;
@@ -206,6 +234,19 @@ text-align: left;
     /* transition: all 0.3s ease; */
     margin-right: 10px;
   }
+
+.paticipant-details p{
+   color: #030318;
+   margin-bottom: 0;
+    font-size: 16px;
+}
+
+.participant-amt{
+    font-size: 12px; 
+    color: #8C8E94;  
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
 
 .btn-file{
     color: #7667F8;
@@ -245,8 +286,9 @@ text-align: left;
     color: #fff;
     border: none;
      border-radius: 24px;
-    padding: 10px 122px;
-    font-size: 12px;
+     padding: 16px 158.5px 15px 159.5px;
+     letter-spacing: 1px;
+     font-size: 12px;
     font-weight: 700;
     /* margin-right: 10px; */
     margin-top: 10px;
@@ -257,21 +299,24 @@ text-align: left;
     font-weight: 700;
     border-radius: 24px;
     border: 1px solid #3B66EA;
-    padding: 10px 50px;
+    padding: 16px 61px 15px 62px;
    font-size: 12px;
+   letter-spacing: 1px;
    background-color: #FFFFFF;
-   margin-top: 10px;
+   margin-top: 8px;
+margin-right: 8px;
 }
 
 .btn-file-decline{
     color: #D60000;
     font-weight: 700;
     border-radius: 24px;
+    letter-spacing: 1px;
     border: 1px solid #D60000;
-    padding: 10px 50px;
+    padding: 16px 61px 15px 62px;
    font-size: 12px;
    background-color: #FFFFFF;
-   margin-top: 10px;
+   margin-top: 8px;
 }
 
 
